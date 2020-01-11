@@ -4,7 +4,7 @@ title: About
 ---
 
 <center>
-	<img src="{{ "/images/mintra_profile.jpg" | absolute_url }}" alt=""  style = "width:30%"/>
+	<img src="{{ "/images/hyunmi_profile.JPG" | absolute_url }}" alt=""  style = "width:30%"/>
 </center>
 
 <hr>
