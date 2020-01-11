@@ -1,7 +1,8 @@
 title:            HYUNMI OH
 description:      Hyunmi's personal website
 copyright:        HYUNMI OH
-url: https://ohyunmii.github.io
+baseurl: ""
+url: ""
 
 
 future:      false  # publish future dated posts --  true, false (default)
