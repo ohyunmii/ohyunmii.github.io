@@ -85,7 +85,7 @@
         <article class="hentry">
 
             <div class="featured-image">
-            <img src="" style="width:100%">
+            <img src="/images/dino/land-abstract.jpg" style="width:100%">
             </div>
 
             <!-- MAIN -->
@@ -93,21 +93,57 @@
                 <a>DINO (Design & Innovation)</a>
             </h1>
             <h3 class="entry-subtitle">
-                <a href="http://localhost:4000" rel="bookmark" title="" itemprop="url"></a>
+                <a href="http://localhost:4000" rel="bookmark" title="" itemprop="url">A project from UNIST prototyping club.</a>
             </h3>
 
             <hr>
 
             <!-- POST CONTENT -->
             <div class="entry-content">
-                <center>
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="_/js/libs/jquery-1.9.1.min.js"><\/script>')</script>
+
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yz-4brOfaqA" frameborder="0" allowfullscreen=""></iframe>
 </center>
 
-<hr />
+<p>Description Here.</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">width=</span><span class="s">"560"</span> <span class="na">height=</span><span class="s">"315"</span> <span class="na">src=</span><span class="s">"//www.youtube.com/embed/SU3kYxJmWuQ"</span> <span class="na">frameborder=</span><span class="s">"0"</span><span class="nt">&gt;&lt;/iframe&gt;</span>
-</code></pre></div></div>
+<center>
+    <div class="photoset-grid-custom" data-layout="213">
+        <img src="/images/dino/land-5.jpg" />
+        <img src="/images/dino/land-6.jpg" />
+        <img src="/images/dino/land-3.jpg" />
+        <img src="/images/dino/land-1.jpg" />
+        <img src="/images/dino/land-2.jpg" />
+        <img src="/images/dino/land-4.jpg" />
+       
+    </div>
+</center>
+
+<script src="/assets/js/jquery.photoset-grid.js"></script>
+
+<script type="text/javascript">
+    $('.photoset-grid-custom').photosetGrid({
+    // Set the gutter between columns and rows
+    gutter: '5px',
+  
+    // Wrap the images in links
+    highresLinks: true,
+  
+    // Asign a common rel attribute
+    rel: 'print-gallery',
+
+    onInit: function(){},
+    
+    onComplete: function(){
+        // Show the grid after it renders
+        $('.photoset-grid-custom').attr('style', '');
+    }
+});
+</script>
+
 
             </div>
 

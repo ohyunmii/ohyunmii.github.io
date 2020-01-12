@@ -1,0 +1,179 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+<title>Electric Candle &#8211; HYUNMI OH</title>
+<meta name="description" content="Hyunmi's personal website">
+<meta name="keywords" content="Interaction Design, HCI, Dematerialization, Tangible Interaction, Prototyping">
+
+<!-- MathJax -->
+<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Electric Candle">
+<meta property="og:description" content="Hyunmi's personal website">
+<meta property="og:url" content="http://localhost:4000/posts/2020-01-06/candle-post.html">
+<meta property="og:site_name" content="HYUNMI OH">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/posts/2020-01-06/candle-post.html">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="HYUNMI OH Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+    <!-- HEADER IMAGE -->
+    <!-- <center>
+        <span class="main-header-image">
+            <a href="/"><img src="/images/header/clean-and-simple-header.jpg"></a>
+        </span>
+    </center> -->
+    <br>
+    <center>
+        <span class="main-header-image">
+            <h1 style="font-weight:100; font-kerning:normal"><a href="/about/">HYUNMI OH</a></h1>
+        </span>
+    </center>
+
+    <!-- NAVIGATION -->
+    <br>
+    <center>
+    <nav class="header-nav">
+        <ul class="navigation-bar">
+            <li><a href="/about/">ABOUT</a></li>
+            <li><a href="/">PROJECTS</a></li>
+            <li><a a href="http://localhost:4000/Hyunmi_CV_Jan2020.pdf">CV</a></li>
+        </ul>
+    </nav>
+</center>
+
+</head>
+
+<!-- BODY -->
+<body id="post-index">
+    <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+    <div id="main" role="main">
+        <article class="hentry">
+
+            <div class="featured-image">
+            <img src="/images/candle/theme.png" style="width:100%">
+            </div>
+
+            <!-- MAIN -->
+            <h1 class="entry-title">
+                <a>Electric Candle</a>
+            </h1>
+            <h3 class="entry-subtitle">
+                <a href="http://localhost:4000" rel="bookmark" title="" itemprop="url">An Electric Table Lamp for Dematerialized Candles</a>
+            </h3>
+
+            <hr>
+
+            <!-- POST CONTENT -->
+            <div class="entry-content">
+                <h3 id="abstract">Abstract</h3>
+
+<p>Dematerialization in HCI community refers to a process in which contents become disengaged from fixed carriers. In other words, contents no longer require physical medium and can rather flow freely through networks and devices [<a href="http://www.ijdesign.org/index.php/IJDesign/article/view/1124/554"> Physical Interaction in a Dematerialized World </a>]. The best exemplar of this phenomenon is CDs being replaced by digital files. 
+In this project we focus on dematerialization of physical light sources. Studies on designing interaction methods for dematerialization of light is not new. However, previous studies on light dematerialization either points to emotional aspect of candle usage or introduce usage-specific interactions on screen. In contrast, the primary goal of this project is in enhancing user experience of candle lights using physical interaction design. Th electric candle light introduced in this project is a physical artifact in the form of a candle that can be lit up using finger-swipe motion. We use candle melting metaphor to implement the candle height lowering to the base level as time ticks by for following reason: it helps users to visualize energy consumption.</p>
+
+<p><br /></p>
+
+<h3 id="system-design">System Design</h3>
+
+<center>
+	<img src="/images/candle/structure.png" style="width:50%" />
+</center>
+<p><br /></p>
+
+<h3 id="technical-implementation">Technical Implementation</h3>
+<ul>
+  <li>Hardware <br />
+Descending candle frame is implemented with a linear actuator with –driver and configured appropriately to be used with Arduino Nano. Two limit switches have been placed on maximum and minimum location the actuator can reach since the motor can only be driven by a positive or a negative speed. As the motor requires 12V, an external power supply is used. For candle flames, two two-legged LEDs are used. A microphone module is positioned near the 3D-printed flame for receiving blowing input. A pressure sensor along with a button switch is fixed on the bottom part of the candle frame body.
+<br /></li>
+  <li>Software <br />
+The software program to control all digital and analog inputs as well as output components including button switch, limit switches, pressure sensor, LEDs, microphone, and linear actuator are all coded and managed in Arduino IDE. The code used in this project can be found <a href="https://github.com/ohyunmii/candle">here</a>.
+<br /></li>
+</ul>
+
+<p><br /></p>
+
+<center>
+<video width="560" height="315" controls="">
+  <source src="/images/candle/candle.mp4" type="video/mp4" />
+</video>
+</center>
+
+
+            </div>
+
+            <!--- DIVIDING LINE -->
+            <hr>
+
+            <!-- POST TAGS -->
+            <div class="inline-tags">
+                <span>
+                    
+                        <a href="/tags/#Interaction Design">#Interaction Design&nbsp;&nbsp;&nbsp;</a>
+                    
+                        <a href="/tags/#HCI">#HCI&nbsp;&nbsp;&nbsp;</a>
+                    
+                        <a href="/tags/#Dematerialization">#Dematerialization&nbsp;&nbsp;&nbsp;</a>
+                    
+                        <a href="/tags/#Tangible Interaction">#Tangible Interaction&nbsp;&nbsp;&nbsp;</a>
+                    
+                        <a href="/tags/#Prototyping">#Prototyping&nbsp;&nbsp;&nbsp;</a>
+                    
+                </span>
+            </div>
+
+            <br>
+
+            <!-- POST DATE -->
+            <div class="post-date">
+                JANUARY 06, 2020
+            </div>
+        </article>
+    </div>
+</body>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-wrapper">
+        <footer role="contentinfo">
+            <span>
+    &copy; 2020 HYUNMI OH.<br>Powered by <a target="_blank" href="https://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a target="_blank" href="https://github.com/benradford/Slate-and-Simple-Jekyll-Theme">Slate+Simple</a> theme.
+</span>
+
+        </footer>
+    </div>
+</footer>
+</html>

@@ -13,12 +13,12 @@
 <lastmod>2016-11-19T00:00:00+09:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/posts/2016-11-20/sample-post.html</loc>
-<lastmod>2016-11-20T00:00:00+09:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/posts/2020-01-05/dino-post.html</loc>
 <lastmod>2020-01-05T00:00:00+09:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/posts/2020-01-06/candle-post.html</loc>
+<lastmod>2020-01-06T00:00:00+09:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/archives/</loc>
