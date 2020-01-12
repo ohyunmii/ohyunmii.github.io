@@ -1,0 +1,48 @@
+I"Ë<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="_/js/libs/jquery-1.9.1.min.js"><\/script>')</script>
+
+<p>We started this project for fun. The primary goal of this project was to produce the Solid R4 kart model from scratch. The Solid R4 kart model is the default frame youâ€™re given when you sign up to a popular racing game called <a href="http://kart.nexon.com/events/2020/0102/Event.aspx">Kart Rider</a>. Due to the nature of the project, no specific technical skills were needed to complete this; only a bit of patience.</p>
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yz-4brOfaqA" frameborder="0" allowfullscreen=""></iframe>
+<br />
+This is the video of our club members riding the kart. 
+</center>
+
+<h3 id="pictures">Pictures</h3>
+<center>
+    <div class="photoset-grid-custom" data-layout="213">
+        <img src="/images/dino/land-5.jpg" />
+        <img src="/images/dino/land-6.jpg" />
+        <img src="/images/dino/land-3.jpg" />
+        <img src="/images/dino/land-1.jpg" />
+        <img src="/images/dino/land-2.jpg" />
+        <img src="/images/dino/land-4.jpg" />
+       
+    </div>
+</center>
+
+<script src="/assets/js/jquery.photoset-grid.js"></script>
+
+<script type="text/javascript">
+    $('.photoset-grid-custom').photosetGrid({
+    // Set the gutter between columns and rows
+    gutter: '5px',
+  
+    // Wrap the images in links
+    highresLinks: true,
+  
+    // Asign a common rel attribute
+    rel: 'print-gallery',
+
+    onInit: function(){},
+    
+    onComplete: function(){
+        // Show the grid after it renders
+        $('.photoset-grid-custom').attr('style', '');
+    }
+});
+</script>
+
+:ET

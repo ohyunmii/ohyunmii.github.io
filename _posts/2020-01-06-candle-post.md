@@ -3,7 +3,7 @@ layout: post
 categories: posts
 title: Electric Candle
 subtitle: An Electric Table Lamp for Dematerialized Candles
-featured-image: /images/candle/theme.png
+featured-image: /images/candle/theme.jpg
 tags: [Interaction Design, HCI, Dematerialization, Tangible Interaction, Prototyping]
 date-string: JANUARY 06, 2020
 ---

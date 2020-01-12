@@ -1,0 +1,51 @@
+I"g<h3 id="abstract">Abstract</h3>
+<p>Yoga is a discipline that integrates mind and bodily exercises practiced for a number of health benefits. Although physical and mental health benefits from practicing yoga are well-known, people address time and cost as the primary barrier to incorporating yoga practices on a regular basis. A cost- effective solution to these limiting factors is adopting at-home practices. However, starting at-home yoga practices is difficult, especially for beginners, due to the lack of feedback on practitioners’ performance. To tackle this challenge, we explore design opportunities for an interactive artifact that can effectively support yoga practices at home that can potentially replace professional personal trainers. Our approach for exploring this design space begins with a user study with a group of yoga practitioners in order to identify design requirements in a yoga practice environment. Based on the results from the user study, we provide some design insights for developing a feedback-based artifact for yoga practice in the home environment. Then, we exemplify how suggested implications can be applied to design with an illustration of a biofeedback-based mat for yoga breathing exercises. Beyond this, we inspect how the mechanism of biofeedback for breathing can be implemented by building a low-cost respiration phase detector to evaluate the quality of breath. The results from the study on the development of phase detector show per-user classifiers can identify respiration phases with mean F-scores of 0.69 for all poses and 0.78 for the baseline pose. This is an acceptable result acknowledging numerous momentary judgments are made to identify each breathing phase. Moreover, per-user classifiers for identifying three yoga poses show promising results, which can expand the application areas of the breathing phase detector. Through this series of context-driven exploratory studies, we demonstrate approaches to investigate design opportunities for technology-supported at- home yoga.</p>
+
+<h3 id="more-info">More Info</h3>
+<p><a a="" href="http://localhost:4000/Exploring%20Design%20Opportunities%20for%20Technology-Supported%20Yoga%20Practices%20at%20Home.pdf"> Download </a></p>
+
+<h3 id="photo-credit">Photo Credit</h3>
+<p>Photo by kike vega on Unsplash</p>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script>window.jQuery || document.write('<script src="_/js/libs/jquery-1.9.1.min.js"><\/script>')</script>
+
+<p>Lorem ipsum dolor sit amet, interdum fermentum arcu, ipsum venenatis curabitur dis. Morbi imperdiet pharetra adipiscing posuere morbi. Aliquam dictum ut nisl wisi quis fermentum, quam lectus amet, eu congue tincidunt. Eget sollicitudin amet lectus at duis vitae, sed id vitae, amet ultricies, eget proin id. Gravida cras consequat, sem elit suscipit, volutpat dui congue, quisque amet ac sit ornare aliquet, sem nec eget felis varius lacus metus. Eros eget viverra habitasse non vitae, fusce euismod commodo pellentesque nonummy sit, ultricies ullamcorper ut neque, egestas sem quisque hendrerit.</p>
+
+<center>
+    <div class="photoset-grid-custom" data-layout="213">
+        <img src="/images/2016-11-19/abstract-1.jpg" />
+        <img src="/images/2016-11-19/abstract-2.jpg" />
+        <img src="/images/2016-11-19/abstract-3.jpg" />
+        <img src="/images/2016-11-19/abstract-4.jpg" />
+        <img src="/images/2016-11-19/abstract-5.jpg" />
+        <img src="/images/2016-11-19/abstract-6.jpg" />
+    </div>
+</center>
+
+<p>Sit mollis consectetuer tempor in, sociosqu mi in ornare et, placerat in eget ac, praesent pellentesque, mollis est natoque. Quis quis, ac ac pretium sed fusce sollicitudin cursus, magna vitae placerat tincidunt sed dictumst, nullam rutrum pharetra consectetuer. Erat libero odio venenatis, et id ac ultrices convallis, ac iaculis nec vestibulum etiam nec metus, integer velit dictum. Inceptos laoreet at wisi libero dolor, id scelerisque vulputate a amet amet dapibus, at et vitae nec aliquam, fringilla vitae quam. Mauris felis nec sagittis posuere mauris, penatibus ullamcorper, tristique aliquet, vel posuere class placerat. Ornare et non magnis fusce.</p>
+
+<script src="/assets/js/jquery.photoset-grid.js"></script>
+
+<script type="text/javascript">
+    $('.photoset-grid-custom').photosetGrid({
+    // Set the gutter between columns and rows
+    gutter: '5px',
+  
+    // Wrap the images in links
+    highresLinks: true,
+  
+    // Asign a common rel attribute
+    rel: 'print-gallery',
+
+    onInit: function(){},
+    
+    onComplete: function(){
+        // Show the grid after it renders
+        $('.photoset-grid-custom').attr('style', '');
+    }
+});
+</script>
+
+:ET
