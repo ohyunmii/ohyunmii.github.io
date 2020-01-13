@@ -5,8 +5,8 @@
     <description>Hyunmi's personal website</description>
     <link>http://localhost:4000/</link>
     <atom:link href="nathanrooy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 13 Jan 2020 09:24:09 +0900</pubDate>
-    <lastBuildDate>Mon, 13 Jan 2020 09:24:09 +0900</lastBuildDate>
+    <pubDate>Mon, 13 Jan 2020 15:03:39 +0900</pubDate>
+    <lastBuildDate>Mon, 13 Jan 2020 15:03:39 +0900</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
       
     
@@ -19,7 +19,7 @@ Yoga is a discipline that integrates mind and bodily exercises practiced for a n
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;more-info&quot;&gt;More Info&lt;/h3&gt;
-&lt;li&gt; &lt;a a=&quot;&quot; href=&quot;http://localhost:4000/Hyunmi_CV_Jan2020.pdf&quot;&gt; Download &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a a=&quot;&quot; href=&quot;http://localhost:4000/Exploring%20Design%20Opportunities%20for%20Technology-Supported%20Yoga%20Practices%20at%20Home.pdf&quot;&gt; Download &lt;/a&gt;&lt;/li&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;photo-credit&quot;&gt;Photo Credit&lt;/h3&gt;
@@ -27,7 +27,7 @@ Yoga is a discipline that integrates mind and bodily exercises practiced for a n
 </description>
         <pubDate>Wed, 08 Jan 2020 00:00:00 +0900</pubDate>
         
-        <link>/posts/2020-01-08/yoga-post.html</link>
+        <link>/posts/2020/01/08/yoga-post.html</link>
           
         
             <category>User Study</category>
@@ -69,7 +69,7 @@ Photo by Erik Lucatero on Unsplash
 </description>
         <pubDate>Tue, 07 Jan 2020 00:00:00 +0900</pubDate>
         
-        <link>/posts/2020-01-07/emotion-post.html</link>
+        <link>/posts/2020/01/07/emotion-post.html</link>
           
         
             <category>Emotion</category>
@@ -126,7 +126,7 @@ The software program to control all digital and analog inputs as well as output 
 </description>
         <pubDate>Mon, 06 Jan 2020 00:00:00 +0900</pubDate>
         
-        <link>/posts/2020-01-06/candle-post.html</link>
+        <link>/posts/2020/01/06/candle-post.html</link>
           
         
             <category>Interaction Design</category>
@@ -201,7 +201,7 @@ This is the video of our club members riding the kart.
 </description>
         <pubDate>Sun, 05 Jan 2020 00:00:00 +0900</pubDate>
         
-        <link>/posts/2020-01-05/dino-post.html</link>
+        <link>/posts/2020/01/05/dino-post.html</link>
           
         
             <category>DINO</category>
