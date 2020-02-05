@@ -7,7 +7,6 @@ title: About
 	<img src="/images/hyunmi_profile.JPG"  style = "width:30%"/>
 </center>
 
-<hr>
 
 <p>
 <h3> Hello, there! </h3>
